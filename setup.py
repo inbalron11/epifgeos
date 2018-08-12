@@ -6,7 +6,6 @@ setup(name='epifgeos',
       url='http://github.com/storborg/funniest',
       author='Inbal Ronay',
       author_email='inbalron11@gmail.com',
-      packages=['epifgeos'],
-      install_requires=[
-          'osgeo','csv','numpy','sklearn','multiprocessing','itertools','matplotlib','functools',],
+      packages=['epifgeos'], license=None,
+      install_requires=['osgeo','csv','numpy','sklearn','multiprocessing','itertools','matplotlib','functools',],
       zip_safe=False)
